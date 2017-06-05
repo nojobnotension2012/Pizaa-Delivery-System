@@ -1,0 +1,91 @@
+body
+{
+
+background-color: #f2f2f2;
+overflow-x: hidden;
+overflow-y: scroll;
+
+}
+::-webkit-scrollbar { 
+    display: none; 
+}
+.social-media-btn a
+{
+	color:black;
+}
+
+
+
+.nav-bar
+{
+	padding-top: 10px;
+}
+
+/*	Responsive Navigation Bar			*/
+
+ul
+{
+	height: 70px;
+	overflow: hidden;
+}
+
+
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+
+ul.nav li {float: left;}
+
+
+ul.nav li a {
+	font-size: 14px;
+	line-height: 70px;
+    display: inline-block;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    transition: all ease 0.3s;
+    height:70px;
+    font-weight: bold;
+}
+
+
+ul.nav li a:hover {color: #ff0000;}
+
+ul.nav li.icon {display: none;}
+
+.brand
+{
+	width:30%;
+	text-align: center;
+}
+.list
+{
+	width: 14%;
+    text-align: center;
+    	text-transform: uppercase;
+}
+
+.message
+{
+	visibility: hidden;
+}
+
+
+/* Registration     */
+
+label{
+    margin-bottom: 15px;
+}
+
+input,
+input::-webkit-input-placeholder {
+    font-size: 11px;
+    padding-top: 3px;
+}
+
